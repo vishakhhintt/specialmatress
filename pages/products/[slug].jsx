@@ -1,7 +1,7 @@
 import React, { useState }  from 'react';
 
 import Link from 'next/link';
-import {useRouter} from 'next/router';
+
 import Head from 'next/head';
 import axios from "axios"; 
 import {toast} from 'react-toastify';
@@ -75,18 +75,7 @@ export const getStaticPaths = () =>
 } 
 const Products =  (props)=>
  {
-   
-    const router = useRouter(); 
-  
-//    if(router.isFallback)
-//    {
-//        return
-//        (
-//         <div className="row">
-//             <img  src="/img/spinner.gif" className="wait" alt="wait" width="100" align="center" />
-//         </div>
-//        );
-//    }
+
         return (
             <div>
                 {
