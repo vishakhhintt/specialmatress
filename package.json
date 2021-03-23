@@ -7,7 +7,7 @@
     "build": "next build",
     
     "export":"next export",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start"
   },
   "dependencies": {
     "aos": "^2.3.4",
